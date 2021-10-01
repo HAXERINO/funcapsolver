@@ -52,7 +52,7 @@ class funcapsolver():
 			'language': 'en',
 			'r': 'us-east-1',
 			'audio_type': '2',
-			'response': funcapsolver.recognize(rf"{os.getcwd()}\audios\{audiornd}"),
+			'response': funcapsolver.recognizeAudio(rf"{os.getcwd()}\audios\{audiornd}"),
 			'analytics_tier': '40'
 		})
 		try:
